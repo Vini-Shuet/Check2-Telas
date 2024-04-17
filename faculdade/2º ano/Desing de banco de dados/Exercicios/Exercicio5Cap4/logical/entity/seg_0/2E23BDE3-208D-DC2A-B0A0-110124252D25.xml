@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="matricula" id="73AA2DF2-A1B7-FC37-24FE-9536BCBB67D3">
+<Attribute name="matricula_aluno" id="73AA2DF2-A1B7-FC37-24FE-9536BCBB67D3">
 <createdBy>Microsoft</createdBy>
 <createdTime>2024-04-12 11:03:22 UTC</createdTime>
 <ownerDesignName>Exercicio5Cap4</ownerDesignName>
@@ -35,9 +35,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_nascimento" id="BC23B477-2D07-7C51-F8B1-23E84A0981CA">
+<Attribute name="sobrenome" id="EE38D387-40F3-B3C8-6ADA-09B206CBEFBF">
 <createdBy>Microsoft</createdBy>
-<createdTime>2024-04-12 11:03:31 UTC</createdTime>
+<createdTime>2024-04-12 11:24:28 UTC</createdTime>
 <ownerDesignName>Exercicio5Cap4</ownerDesignName>
 <engineerTo>
 <item key="80E2C4B8-7307-C283-EAB1-804A7C6336AF" value="true"/>
@@ -45,9 +45,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="telefone" id="E4E37F36-489D-B6F8-27BF-E74C345C2C09">
+<Attribute name="data_nascimento" id="BC23B477-2D07-7C51-F8B1-23E84A0981CA">
 <createdBy>Microsoft</createdBy>
-<createdTime>2024-04-12 11:07:28 UTC</createdTime>
+<createdTime>2024-04-12 11:03:31 UTC</createdTime>
 <ownerDesignName>Exercicio5Cap4</ownerDesignName>
 <engineerTo>
 <item key="80E2C4B8-7307-C283-EAB1-804A7C6336AF" value="true"/>

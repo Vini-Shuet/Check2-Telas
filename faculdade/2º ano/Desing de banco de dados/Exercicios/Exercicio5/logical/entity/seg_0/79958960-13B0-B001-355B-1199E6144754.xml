@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF312FCD-C309-3A68-6085-E99D009F6836" name="CURSOS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79958960-13B0-B001-355B-1199E6144754" name="ALUNOS">
 <createdBy>Microsoft</createdBy>
-<createdTime>2024-04-05 12:00:48 UTC</createdTime>
+<createdTime>2024-04-05 12:05:09 UTC</createdTime>
 <ownerDesignName>Exercicio5</ownerDesignName>
 <engineerTo>
 <item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cod_curso" id="2E645029-CD96-959F-467E-70BE5A134080">
+<Attribute name="cod_aluno" id="CEB8FAA7-A209-3A47-91AC-57F2145D6B4A">
 <createdBy>Microsoft</createdBy>
-<createdTime>2024-04-05 12:03:00 UTC</createdTime>
+<createdTime>2024-04-05 12:07:38 UTC</createdTime>
 <ownerDesignName>Exercicio5</ownerDesignName>
 <engineerTo>
 <item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="771DAE46-CA09-28E4-8B0D-CAB966E9EFCE">
+<Attribute name="nome" id="DFCD6A6B-B4B8-5F02-DF0D-38ECD11FBC8F">
 <createdBy>Microsoft</createdBy>
-<createdTime>2024-04-05 12:03:37 UTC</createdTime>
+<createdTime>2024-04-05 12:07:47 UTC</createdTime>
 <ownerDesignName>Exercicio5</ownerDesignName>
 <engineerTo>
 <item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
@@ -35,9 +35,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="preco" id="5DCF9239-CCC3-05EF-081D-4058D553F5E9">
+<Attribute name="sobrenome" id="5DDC4149-B637-C869-5C5E-A72EE9BA7222">
 <createdBy>Microsoft</createdBy>
-<createdTime>2024-04-05 12:03:46 UTC</createdTime>
+<createdTime>2024-04-05 12:07:53 UTC</createdTime>
 <ownerDesignName>Exercicio5</ownerDesignName>
 <engineerTo>
 <item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
@@ -45,9 +45,29 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="duracao" id="49D6FAA3-7DA2-6656-47F2-5322F1E92140">
+<Attribute name="endereco" id="7A8515F8-C9AE-DEDE-3FD9-E222A4CC9C01">
 <createdBy>Microsoft</createdBy>
-<createdTime>2024-04-05 12:03:59 UTC</createdTime>
+<createdTime>2024-04-05 12:07:58 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="89F4B2A3-638E-AE4B-D9DE-6229B2B6CA31">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-05 12:08:21 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cursos_realizados" id="3E8B8EEE-6B89-4C2F-8923-2681B2007FDB">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-05 12:08:25 UTC</createdTime>
 <ownerDesignName>Exercicio5</ownerDesignName>
 <engineerTo>
 <item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
@@ -57,16 +77,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EA190264-2D19-35B1-FBF6-50F012629486" name="CURSOS PK">
+<identifier id="03E40D95-05AA-0331-A267-F503756BD022" name="ALUNOS PK">
 <createdBy>Microsoft</createdBy>
-<createdTime>2024-04-05 12:03:32 UTC</createdTime>
+<createdTime>2024-04-05 12:07:45 UTC</createdTime>
 <ownerDesignName>Exercicio5</ownerDesignName>
 <engineerTo>
 <item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2E645029-CD96-959F-467E-70BE5A134080</attributeRef>
+<attributeRef>CEB8FAA7-A209-3A47-91AC-57F2145D6B4A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

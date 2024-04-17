@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEC6F121-3ED8-9400-0B62-90C8BE1E92DB" name="INSTRUTORES">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-05 12:04:47 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_instrutores" id="311B179C-C076-B2BC-D345-69F3282DD1DC">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-05 12:05:27 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="9060258C-48B5-D6A5-22B0-F07A6CE34D9C">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-05 12:05:36 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="DC30C279-0468-A79B-13CE-F758609141FC">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-05 12:05:42 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="659387EC-70E8-1C38-C499-06FA4D219368">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-05 12:05:48 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="5C9AD5F1-5630-C804-49D1-9686ACFD7803">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-05 12:05:55 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_certificados" id="F842A89E-68A5-216F-2E8D-2D44AA582DE5">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-05 12:06:03 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_certificados1" id="D5E2A38B-20DC-3C43-4ED8-33D629979F10">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-05 12:09:38 UTC</createdTime>
+<generatorID>400F49AC-2FE5-F86D-6CBC-AB3BFB076A05</generatorID>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
+</engineerTo>
+<referedAttribute>61CFD905-143F-6306-BE45-D9462B97CE56</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="365DFD09-024F-8EF7-B949-F248A6C31071" name="INSTRUTORES PK">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-05 12:05:34 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="47A753D6-62DB-6CF5-3116-F5303CCDFBF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>311B179C-C076-B2BC-D345-69F3282DD1DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

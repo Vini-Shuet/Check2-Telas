@@ -35,6 +35,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="sobrenome" id="A9653E7F-9E31-96B3-DBC6-856F452DB1A4">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-12 11:56:24 UTC</createdTime>
+<ownerDesignName>Exercicio5Cap4</ownerDesignName>
+<engineerTo>
+<item key="80E2C4B8-7307-C283-EAB1-804A7C6336AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9573700B-646C-3DEF-6659-46DF0CD8E24F" name="AUTORES PK">

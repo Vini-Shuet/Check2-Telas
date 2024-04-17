@@ -42,10 +42,11 @@
 <engineerTo>
 <item key="80E2C4B8-7307-C283-EAB1-804A7C6336AF" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="matricula" id="8F330F5F-DC27-0F26-6040-C6C935C8A4AA">
+<Attribute name="matricula_aluno" id="8F330F5F-DC27-0F26-6040-C6C935C8A4AA">
 <createdBy>Microsoft</createdBy>
 <createdTime>2024-04-12 11:07:49 UTC</createdTime>
 <generatorID>0376B6BF-D6A7-C9D1-CD0D-4C1A54C94449</generatorID>

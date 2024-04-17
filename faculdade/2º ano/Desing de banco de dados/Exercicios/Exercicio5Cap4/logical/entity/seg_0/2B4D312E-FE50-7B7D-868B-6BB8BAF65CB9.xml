@@ -35,6 +35,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="qtd" id="F594CBC6-E5C0-3999-5C56-3BCB4DCA6D48">
+<createdBy>Microsoft</createdBy>
+<createdTime>2024-04-12 11:53:40 UTC</createdTime>
+<ownerDesignName>Exercicio5Cap4</ownerDesignName>
+<engineerTo>
+<item key="80E2C4B8-7307-C283-EAB1-804A7C6336AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="052F24CD-B8E3-979E-0E1F-881204D55615" name="LIVROS PK">
